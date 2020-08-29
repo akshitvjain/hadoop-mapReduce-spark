@@ -1,0 +1,68 @@
+2020-02-14 04:26:58,487 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-83-40.ec2.internal/172.31.83.40:8032
+2020-02-14 04:27:00,423 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-02-14 04:27:00,436 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2020-02-14 04:27:00,439 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev 29dbe82f1ecfd8384b89f1a32e5e2d9e5dfd7724]
+2020-02-14 04:27:01,062 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:20
+2020-02-14 04:27:01,244 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1581654332339_0001
+2020-02-14 04:27:01,726 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1581654332339_0001
+2020-02-14 04:27:01,892 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-83-40.ec2.internal:20888/proxy/application_1581654332339_0001/
+2020-02-14 04:27:01,909 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1581654332339_0001
+2020-02-14 04:27:40,309 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1581654332339_0001 running in uber mode : false
+2020-02-14 04:27:40,312 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-02-14 04:28:00,485 INFO org.apache.hadoop.mapreduce.Job (main):  map 5% reduce 0%
+2020-02-14 04:28:02,528 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2020-02-14 04:28:27,629 INFO org.apache.hadoop.mapreduce.Job (main):  map 14% reduce 0%
+2020-02-14 04:28:29,638 INFO org.apache.hadoop.mapreduce.Job (main):  map 40% reduce 0%
+2020-02-14 04:28:36,662 INFO org.apache.hadoop.mapreduce.Job (main):  map 57% reduce 0%
+2020-02-14 04:28:37,670 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 0%
+2020-02-14 04:28:38,675 INFO org.apache.hadoop.mapreduce.Job (main):  map 76% reduce 0%
+2020-02-14 04:28:39,680 INFO org.apache.hadoop.mapreduce.Job (main):  map 79% reduce 0%
+2020-02-14 04:28:40,697 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 0%
+2020-02-14 04:28:44,712 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 0%
+2020-02-14 04:28:45,715 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 0%
+2020-02-14 04:28:46,721 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-02-14 04:28:47,730 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1581654332339_0001 completed successfully
+2020-02-14 04:28:47,850 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 36
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=3374930
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=2040
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=20
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=1319520226
+		S3: Number of bytes written=0
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=3
+		Launched map tasks=23
+		Data-local map tasks=23
+		Total time spent by all maps in occupied slots (ms)=50135520
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=1044490
+		Total vcore-milliseconds taken by all map tasks=1044490
+		Total megabyte-milliseconds taken by all map tasks=1604336640
+	Map-Reduce Framework
+		Map input records=85331845
+		Map output records=0
+		Input split bytes=2040
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=11758
+		CPU time spent (ms)=159020
+		Physical memory (bytes) snapshot=11149107200
+		Virtual memory (bytes) snapshot=65707024384
+		Total committed heap usage (bytes)=9865003008
+	File Input Format Counters 
+		Bytes Read=1319520226
+	File Output Format Counters 
+		Bytes Written=0
+2020-02-14 04:28:47,858 INFO edu.neu.ccs.UserTriangleCounterRep (main): 
+TRIANGLE_COUNT = 0
